@@ -1,0 +1,30 @@
+body {
+    background-image: url("fond\ vert\ clair.jpg"); /* Image de fond */
+    background-size: cover;     /* L’image couvre tout l’écran */
+    background-repeat: no-repeat; /* Pas de répétition */
+    background-position: center; /* Centrée */
+}
+
+h1 {
+    color : white ;
+    text-align: center ;
+    font-size : 40px;
+}
+
+h2 {
+    color : rgb(255, 255, 255);
+    font-family : palatino; 
+}
+
+h1 + p {
+    font-family : Georgia;
+    font-size : 20px;
+    color : black;
+}
+
+h2 + p {
+    color: black;   
+    font-size : 15px;
+    font-family: Verdana;
+}
+
